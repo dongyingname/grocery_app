@@ -4,7 +4,7 @@ const transport = {
   host: "smtp.gmail.com",
   auth: {
     user: "cross.aisle.app@gmail.com",
-    pass: "1234567890Kk"
+    pass: "1234567890Kk,"
   }
 };
 const transporter = nodemailer.createTransport(transport);
